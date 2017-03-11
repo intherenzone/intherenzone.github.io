@@ -1605,6 +1605,28 @@
 		font-size: 1.5em;
 	}
 
+	/* course header/description style */
+		h4.course{
+			font-weight: bold;
+			text-align: left;
+		}
+			h4.course.red{
+				color:#8B0000;
+			}
+			h4.course.black{
+				color:#000;
+			}
+			h4.course.yellow{
+				color: #999900;
+			}
+		p.desc{
+			text-align: left;
+			line-height: 1.2;
+			font-size: .8em;
+		}
+
+
+
 	header {
 		margin: 0 0 2em 0;
 	}
@@ -2071,6 +2093,7 @@
 
 	#nav ul {
 		margin-bottom: 0;
+		line-height: 1em;
 	}
 
 		#nav ul li a {
@@ -2195,11 +2218,33 @@
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #ffffb2;
+				color: #000;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #F0FFFF;
+			}
+
+			#main > section.five {
+				background-color: #ffd9c9;
+			}
+
+			#main > section.six {
+				background-color: #81918E;
+				background-image: url("../../images/parchment.jpg");
+				background-repeat: no-repeat;
+    			background-size: 100% 100%;
+    			color: #000;
+    			
+			}
+
+			#main > section.academics {
+				background-color: #81918E;
+				background-image: url("../../images/umd-campus.jpg");
+				background-repeat: no-repeat;
+    			background-attachment: fixed;
+    			background-size: cover;
 			}
 
 /* Wide */
